@@ -52,6 +52,13 @@ function Home() {
       <code2>
         <Clock></Clock>
       </code2>
+      <code-footer>
+        <Link href="https://github.com/kevbuh/eyecandy">
+          <a>
+            <codeUnderline>GITHUB</codeUnderline>
+          </a>
+        </Link>
+      </code-footer>
     </main>
   );
 }

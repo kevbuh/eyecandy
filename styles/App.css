@@ -2,8 +2,8 @@ main {
   align-content: center;
   box-sizing: border-box;
   display: grid;
-  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
   hyphens: auto;
   line-height: 1.65;
   margin: 0 auto;
@@ -53,7 +53,7 @@ pre {
 }
 code:before,
 code:after {
-  content: '\`';
+  content: "\`";
 }
 
 code2,
@@ -70,6 +70,18 @@ pre {
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace, serif;
   font-size: 0.92em;
-   text-decoration: underline;
+  text-decoration: underline;
 }
 
+code-footer,
+pre {
+  color: #d400ff;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-size: 0.92em;
+  /* text-decoration: underline; */
+  position: "absolute";
+  bottom: 0;
+  width: "100%";
+  margin-top: 10em;
+}

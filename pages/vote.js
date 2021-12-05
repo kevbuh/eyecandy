@@ -26,6 +26,7 @@ function Vote() {
     // Add code here to upload file to server
     // ...
   }
+
   return (
     <main>
       <p>
