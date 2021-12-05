@@ -2,19 +2,6 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
-// function FileUpload() {
-//   // State to store uploaded file
-//   const [file, setFile] = React.useState("");
-
-//   // Handles file upload event and updates state
-//   function handleUpload(event) {
-//     setFile(event.target.files[0]);
-
-//     // Add code here to upload file to server
-//     // ...
-//   }
-// }
-
 function Vote() {
   // State to store uploaded file
   const [file, setFile] = React.useState("");
@@ -29,21 +16,14 @@ function Vote() {
 
   return (
     <main>
-      <p>
+      <h1>
         <Link href="/">
           <a>
-            <codeUnderline>EYE CANDY</codeUnderline>
+            <code>EYE CANDY</code>
           </a>
         </Link>
-        {/* <input
-          type="file"
-          id="BtnBrowseHidden"
-          name="files"
-          // style="display: none;"
-        /> */}
-        {/* <label for="BtnBrowseHidden" id="LblBrowse">
-          Browse
-        </label> */}
+      </h1>
+      <p>
         <br />
       </p>
       <code2>UPLOAD PICTURES TO TRAIN THE AI</code2>

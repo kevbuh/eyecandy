@@ -1,7 +1,5 @@
 import React from "react";
 import { useEffect, useState } from "react";
-// import './App.css';
-// import '../styles/App.css'
 import Head from "next/head";
 import Link from "next/link";
 
@@ -30,7 +28,6 @@ function Home() {
         <title>Eye Candy</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        {/* <link rel="shortcut icon" href="../public/favicon.ico" /> */}
       </Head>
       <h1>
         <code>EYE CANDY</code>
@@ -38,11 +35,6 @@ function Home() {
       <p>
         <code2>AI POWERED EYE CANDY -{">"} Coming 1/1/2022</code2>
         <br />
-      </p>
-      {/* <div>
-          <code2>Coming 1/1/2022</code2>
-        </div> */}
-      <p>
         <br />
 
         <Link href="/vote">
