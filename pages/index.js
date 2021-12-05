@@ -36,13 +36,17 @@ function Home() {
         <code>EYE CANDY</code>
       </h1>
       <p>
+        <code2>AI POWERED EYE CANDY</code2>
+        <br />
+        <div>
+          <code2>Coming 1/1/2022</code2>
+        </div>
         <Link href="/vote">
           <a>
-            <code2>AI POWERED EYE CANDY</code2>
+            <codeUnderline>TRAIN THE AI HERE</codeUnderline>
           </a>
         </Link>
         <br />
-        <code2>Coming 1/1/2022</code2>
       </p>
       <br />
       <code2>
