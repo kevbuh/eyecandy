@@ -47,19 +47,29 @@ function Vote() {
         <br />
       </p>
       <code2>UPLOAD PICTURES TO TRAIN THE AI</code2>
+      <br />
 
       <div id="upload-box">
         <code2>
-          <input type="file" onChange={handleUpload} />
+          <input
+            type="file"
+            id="actual-btn"
+            className="userButton"
+            onChange={handleUpload}
+            hidden
+          />
+          <label className="userButton" htmlFor="actual-btn">
+            Upload
+          </label>
           <br />
           <div className="marginTop">
             Filename: {file.name}
             File type: {file.type}
             File size: {file.size} bytes
             <div>
-              {file ? <input className="marginSubmit" type="submit" /> : null}
+              {file ? <input className="userButton" type="submit" /> : null}
             </div>
-            {file && <ImageThumb className="marginTop" image={file} />}
+            {file && <ImageThumb image={file} />}
           </div>
         </code2>
       </div>
@@ -73,8 +83,8 @@ const ImageThumb = ({ image }) => {
     <Image
       src={URL.createObjectURL(image)}
       alt={image.name}
-      width="100%"
-      height="100%"
+      width="1000vw"
+      height={300}
       layout="responsive"
       objectFit="contain"
     />
