@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 // import './App.css';
 // import '../styles/App.css'
+import Head from 'next/head'
 
 const Clock = () => {
   const init = new Date()
@@ -22,9 +23,15 @@ const Clock = () => {
 }
 
 
-function App() {
+function Home() {
   return (
     <main>
+    <Head>
+      <title>Eye Candy</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      {/* <link rel="shortcut icon" href="../public/favicon.ico" /> */}
+    </Head>
       <h1>
         <code>EYE CANDY</code>
       </h1>
@@ -32,7 +39,7 @@ function App() {
         <a href="/">
           <code2>AI POWERED EYE CANDY</code2>
       <br />
-          <code2>Coming Soon</code2>
+          <code2>Coming 1/1/2022</code2>
         </a>
       </p>
       <br />
@@ -43,4 +50,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
