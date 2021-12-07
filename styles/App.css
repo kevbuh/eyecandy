@@ -66,10 +66,11 @@ input {
 .userButton {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-  background-color: #040507;
+  background-color: #e4e4e4;
   padding: 0.5rem 0.7rem;
   border: none;
   border-radius: 4px;
+  /* border-color: black; */
   /* background: none; */
   cursor: pointer;
 }
