@@ -26,7 +26,7 @@ function Vote() {
       <p>
         <br />
       </p>
-      <code2>UPLOAD PICTURES TO TRAIN THE AI</code2>
+      <code2>UPLOAD PICTURES TO TRAIN THE AI (BETA)</code2>
       <br />
 
       <div id="upload-box">

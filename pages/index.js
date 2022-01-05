@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/dist/client/image";
 
 const Clock = () => {
   const init = new Date();
@@ -33,13 +34,29 @@ function Home() {
         <code>EYE CANDY</code>
       </h1>
       <p>
-        <code2>AI POWERED EYE CANDY -{">"} Coming 1/1/2022</code2>
+        <code2>AI POWERED EYE CANDY -{">"} Coming 2022</code2>
         <br />
+
+        <Link href="https://en.wikipedia.org/wiki/Neural_Style_Transfer">
+          <a>
+            <code2>Based off of Neural Style Transfer</code2>
+          </a>
+        </Link>
+
+        <br />
+        <br />
+
+        <Image
+          width={100}
+          height={50}
+          alt={"App Store"}
+          src="/../public/V1PC3OfGlO4-P-joYRbD7_z12dmy5UnamZW7UnF9ulc.webp"
+        />
         <br />
 
         <Link href="/vote">
           <a>
-            <codeUnderline>TRAIN THE AI HERE</codeUnderline>
+            <codeUnderline>TRAIN THE AI HERE (BETA)</codeUnderline>
           </a>
         </Link>
       </p>
